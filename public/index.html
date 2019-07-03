@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+
+    <title>DNS Connection Wizard :: Firebase Hosting</title>
+
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"/>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link href="/dist/main.css" rel="stylesheet">
+
+</head>
+
+<body class="dark-edition">
+<div id="app">
+    <div class="wrapper ">
+        <sidebar></sidebar>
+        <div class="main-panel">
+            <navbar></navbar>
+            <div class="content">
+                <div class="container-fluid">
+                    <router-view></router-view>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="copyright float-right" id="date">
+                        Made with <i class="material-icons">favorite</i> by
+                        <a href="https://github.com/mtflud" target="_blank">mtflud</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="/dist/main.js"></script>
+
+</html>

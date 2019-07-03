@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Theme
+@import './material-dashboard';
+@import '~vue-form-wizard/dist/vue-form-wizard.min.css';
+
+.disabled > .stepTitle {
+  color: #ECEFF1 !important;
+}
+
+.stepTitle {
+  color: #039BE5 !important;
+}
+
+.disabled > .wizard-icon-circle {
+  background-color: transparent;
+  border: 3px solid #ECEFF1;
+}
+
+.checked.wizard-icon-circle {
+  background-color: #039BE5 !important;
+}
+
+.checked > .wizard-icon {
+  color: #ECEFF1 !important;
+}
+
+.disabled > .wizard-icon-circle > .wizard-icon {
+  color: #ECEFF1;
+}
+
+.wizard-icon-circle > .wizard-icon {
+  color: #039BE5;
+}
+
+.wizard-icon {
+  font-style: normal !important;
+}
+
+.color-success {
+  color: #4ea752 !important;
+}
+
+h2 {
+  color: #ECEFF1 !important;
+}
+
+.btn-blue {
+  background-color: #039BE5 !important;
+  border-color: #039BE5 !important;
+}
+
+th {
+  color: #FFCA28
+}
+
+code {
+  color: #ECEFF1
+}
+
+.form-control {
+  background-image: linear-gradient(to top, #ECEFF1 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, rgba(180, 180, 180, 0.1) 1px, rgba(180, 180, 180, 0) 1px) !important;
+}
+
+.firebase-amber {
+  color: #FFA000 !important;
+}
