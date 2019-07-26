@@ -96,11 +96,13 @@
                     let currentIndex = this.$refs.wizard.activeTabIndex;
                     // :: Reset A records check flags
                     if (currentIndex <= 2) {
+                        this.finished = false;
                         this.$refs.stepThree.reset();
                         this.$store.commit('setFoundATypeRecords', []);
                     }
                     // :: Reset TXT records check flags
                     if (currentIndex <= 1) {
+                        this.finished = false;
                         this.$refs.stepTwo.reset();
                         this.$store.commit('setFoundTxtRecords', []);
                         this.$store.commit(`setFoundTxtRecordsUS`, []);

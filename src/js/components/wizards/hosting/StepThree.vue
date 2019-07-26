@@ -2,7 +2,7 @@
     <div>
         <h2>Let's get you connected!</h2>
         <p>
-            Now that your domain is verified, we have to configure it so that Firebase's Servers
+            Now that your domain is verified, we have to configure it so that Firebase Servers
             respond to requests made to it.
         </p>
         <p>
@@ -11,6 +11,10 @@
             following
             <a :href="providerInstructions.addAUrl" target="_blank">these instructions</a> to add
             your records.
+        </p>
+        <p>
+            Remember, your domain name should have <b>two and only two</b> A type records with the values shown below,
+            so please remove any additional records of this type if you already have any.
         </p>
         <hr/>
         <p>Here's what you should add:</p>
@@ -119,7 +123,7 @@
               <ul>
                 <li>If you've modified these records recently, please wait a bit longer for propagation to take place (it may take up to 24 hours).</li>
                 <li v-if="hasExtraneousATypeRecords">
-                  <b>Your domain must have 2 and only 2 A type records</b> with the values of Firebase Servers IPs. Please remove any extraneous record (visualized in red).
+                  <b>Your domain must have 2 and only 2 A type records</b> with the values of Firebase Servers IPs shown above. Please remove any extraneous record (visualized in red).
                 </li>
                 <li
                         v-if="hasLessATypeRecords"
