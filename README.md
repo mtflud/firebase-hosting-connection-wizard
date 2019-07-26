@@ -30,7 +30,7 @@ Initialize your Firebase project for `functions` and `hosting`:
 
 Navigate to the `functions` directoy and install its dependencies as well:
 
-`cd functions && pod install`
+`cd functions && npm install`
 
 ### Running the application
 
